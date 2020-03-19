@@ -1,3 +1,4 @@
 # jogo-da-memoria-coronavirus
 Joguinho tema coronavirus
-<img src="screenshot.png">
+
+![Jogo do coronavirus](https://raw.githubusercontent.com/IngridiGrein/jogo-da-memoria-coronavirus/master/screnshot.png)
