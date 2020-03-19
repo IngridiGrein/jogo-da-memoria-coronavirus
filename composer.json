@@ -1,0 +1,52 @@
+{
+	"name": "Jogo-da-memoria",
+	"description":"Jogo-da-memoria",
+	"authors": [
+		{
+			"name": "Grein Ingridi",
+			"role": "bootsnip"
+		}
+	],
+	"require-dev": {
+		"jquery/jquery-1.11.1":"*",
+		"bootstrap/bootstrap-css":"*",
+		"bootstrap/bootstrap-js":"*"
+	
+
+	},
+	"repositories": [
+		{
+			"type":"package",
+			"package": {
+				"name":"jquery/jquery-1.11.1",
+				"version":"1.11.1",
+				"dist": {
+					"url": "https://code.jquery.com/jquery-1.11.1.min.js",
+					"type": "file"
+				}
+			}
+		},
+		{
+			"type":"package",
+			"package": {
+				"name":"bootstrap/bootstrap-css",
+				"version":"3.3.0",
+				"dist": {
+					"url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css",
+					"type": "file"
+				}
+			}
+		},
+		{
+			"type":"package",
+			"package": {
+				"name":"bootstrap/bootstrap-js",
+				"version":"3.3.0",
+				"dist": {
+					"url": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js",
+					"type": "file"
+				}
+			}
+		}
+	]
+}

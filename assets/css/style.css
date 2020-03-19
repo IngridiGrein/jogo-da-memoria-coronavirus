@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 18px Verdana;
+	color: #FFF;
+  background: url('../img/back.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /*-webkit-gradient(linear, center top, center bottom, color-stop(0%,#1D3749), color-stop(60%,#1D3749), color-stop(100%,#559BB5));*/
+}
+.image-position{
+    position: absolute;
+    left: 3%;
+}
+.image-position img{
+    width: 70%;
+}
+a {
+    color: #E91E63;
+    text-decoration: none;
+}
+#picbox {
+	margin: 0px auto;
+	width: 436px;
+}
+#boxcard {
+	z-index: 1;
+	margin: 10px 0 0;
+}
+#boxcard div{
+	float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+     /*padding: 5px; */
+    /*border: 2px solid #1d3749;*/
+    cursor: pointer;
+    border-radius: 0px;
+    box-shadow: 0 1px 5px rgba(0,0,0,.5);
+    background: #ffa600;
+    z-index: 2;
+}
+#boxcard div img {
+	z-index: 3;
+    width: 100%;
+    display: none;
+}
+#boxcard div div {
+	z-index: 3;
+    width: 100%;
+    display: none;
+}
+#boxbuttons {
+	text-align: center;
+	margin: 20px;
+	display: block;
+}
+#boxbuttons .button {
+	text-transform: uppercase;
+    background: aliceblue;
+    padding: 8px 20px;
+    color: #1d3749;
+    margin: 5px;
+    border-radius: 0px;
+    cursor: pointer;
+}
+#boxbuttons .button:hover {
+	background: #999;
+}
+.fundo{
+    background-size: 80px 80px !important;
+}
+.china{
+    background-image:url('../img/virus.png');
+    background-size: 40%;
+    width: 10%;
+    height: 10%;
+    background-repeat: no-repeat;
+    margin-left: 74%;
+    margin-top: 1%;
+    position: absolute;
+    animation: pulse 3s infinite;
+}
+
+.italia{
+    background-image: url('../img/virus-1.png');
+    background-size: 20%;
+    margin-top: 3%;
+    width: 20%;
+    height: 20%;
+    background-repeat: no-repeat;
+    margin-left: 47%;
+    position: absolute;
+    animation: aleatory 6s infinite;
+}
+@keyframes pulse {
+    0%   {
+        transform: scale(0.2);
+    }
+    50%   {
+    transform: scale(1);
+    }
+    100% { 
+    transform: scale(0.2);
+    }
+}
+@keyframes aleatory {
+    0% {
+        margin-left: 74%;
+        margin-top: 5%;
+    }
+    10% {
+        margin-left: 64%;
+        margin-top: 9%;
+    }
+    20% {
+        margin-left: 54%;
+        margin-top: 15%;
+    }
+    25% {
+        margin-left: 24%;
+        margin-top: 5%;
+    }
+    30% {
+        margin-left: 78%;
+        margin-top: 5%;
+    }
+    40% {
+        margin-left: 95%;
+        margin-top: 2%;
+    }        
+    50%{
+        margin-left: 30%;
+        margin-top: 9%;
+    }
+    60%{
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+    68%{
+        margin-left: 5%;
+        margin-top: 9%;
+    }
+    75%{
+        margin-left: 89%;
+        margin-top: 12%;
+    }
+    80%{
+        margin-left: 5%;
+        margin-top: 20%;
+    }
+    90%{
+        margin-left: 30%;
+        margin-top: 9%;
+    }
+    100%{
+        margin-left: 47%;
+        margin-top: 8%;
+    }
+}
